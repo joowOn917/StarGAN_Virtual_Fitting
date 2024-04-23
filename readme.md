@@ -24,7 +24,7 @@ StarGAN 모델을 활용하여 피팅이 불가능한 오프라인 쇼핑몰이�
 <img src = "https://github.com/joowOn917/StarGAN_Virtual_Fitting/assets/143769249/f74aa55d-a595-4a1b-98d7-fed410ef082e" height="80%">
 
 <!-- 
-### 라벨링 
+### 라벨링 코드
 파일명을 활용하여 도메인별 라벨링 진행
 
 for i in range(len(names)):
