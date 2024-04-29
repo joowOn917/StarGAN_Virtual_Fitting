@@ -93,7 +93,8 @@ selenium 라이브러리를 활용하여 네이버와 구글에서 이미지 크
 예시 도메인: 긴팔(longsleeve)
 <img src = "https://github.com/joowOn917/StarGAN_Virtual_Fitting/assets/143769249/f74aa55d-a595-4a1b-98d7-fed410ef082e" height="80%">
 
-
-
+- Generator의 input으로 image와 domain을 입력하면 image에 domain이 반영된 가짜 이미지가 생성됨. 
+- 생성된 가짜 이미지를 discriminator에 넣으면 해당 이미지에 해당하는 domain과 진실 여부가 반환됨.
+- 생성된 가짜 이미지와 input image의 domain을 다시 generator에 넣어 input image로 복원. 
 
 
